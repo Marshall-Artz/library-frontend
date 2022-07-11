@@ -1,6 +1,5 @@
 import './App.css';
-import { Box } from '@mui/system';
-import { Button } from '@mui/material';
+import Banner from './Banner';
 
 function App() {
   return (
