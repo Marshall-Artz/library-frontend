@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Box component="span" sx={{ p: 2, border: '1px solid white' }}>
+        <Box component="span" sx={{ p: 2, border: '1px solid white', marginX: 0}}>
           <Button>Save</Button>
         </Box>
         <p>testing</p>
