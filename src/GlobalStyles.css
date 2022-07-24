@@ -1,8 +1,6 @@
 .Banner {
     background-color: #00853E;
-    border-width: 1;
-    border-style: solid;
-    border-color: white;
+    height: 100px;
   }
   
 .Main {
@@ -11,4 +9,3 @@
     border-color: white;
     margin: 15px;
 }
-  
