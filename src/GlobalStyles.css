@@ -1,0 +1,14 @@
+.Banner {
+    background-color: #00853E;
+    border-width: 1;
+    border-style: solid;
+    border-color: white;
+  }
+  
+.Main {
+    border-width: 1;
+    border-style: solid;
+    border-color: white;
+    margin: 2;
+}
+  
