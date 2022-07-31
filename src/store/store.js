@@ -1,9 +1,9 @@
-import counterSlice from '../redux/slice/counterSlice';
+import librarySlice from '../redux/slice/librarySlice';
 import { configureStore } from '@reduxjs/toolkit';
 
 const store = configureStore({
     reducer: {
-        counter: counterSlice.reducer
+        library: librarySlice.reducer
     }
 });
 //sageMiddleWare.run(rootSaga);

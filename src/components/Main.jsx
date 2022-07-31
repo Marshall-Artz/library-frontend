@@ -4,10 +4,10 @@ import '../GlobalStyles.css';
 import { Box } from '@mui/system';
 
 const Main = () => {
-  const library = useSelector((state) => state.libraryRes);
+  const library = useSelector((state) => state.library);
   return (
     <Box className='Main'>
-        <p>Title: {toString(library)}</p>
+        <p>Title: {library.books[0].title}</p>
     </Box>
   );
 }
