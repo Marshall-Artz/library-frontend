@@ -3,7 +3,7 @@ import './App.css';
 import Banner from './components/Banner';
 import Main from './components/Main';
 
-function App() {
+const App = (props) => {
   return (
     <div className="App">
       <header className="App-header">

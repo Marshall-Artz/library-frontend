@@ -1,13 +1,28 @@
 import React from 'react';
+import { Provider } from 'react-redux'
+import { configureStore, combineReducers } from '@reduxjs/toolkit'
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import librarySlice from './redux/slice/librarySlice';
+
+const reducer = combineReducers({
+  libraryRes: librarySlice,
+});
+
+const store = configureStore({
+  reducer,
+  //middleware: [sageMiddleware],
+});
+//sageMiddleWare.run(rootSaga);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 
