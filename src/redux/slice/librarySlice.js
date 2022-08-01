@@ -4,9 +4,19 @@ const initialState = {
   books:
   [
     {
-      title: "Title",
+      title: "Title1",
       isbn: "1234567890",
       desc: "A non-fiction biography.",
+    },
+    {
+      title: "Title2",
+      isbn: "0123456789",
+      desc: "A fiction book.",
+    },
+    {
+      title: "Title3",
+      isbn: "9876543210",
+      desc: "A fantasy book.",
     },
   ]
 }

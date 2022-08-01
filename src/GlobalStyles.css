@@ -1,11 +1,13 @@
 .Banner {
-    background-color: #00853E;
-    height: 100px;
-  }
+  background-color: #00853E;
+  height: 100px;
+}
   
 .Main {
-    border-width: 1;
-    border-style: solid;
-    border-color: white;
-    margin: 15px;
+  border-width: 1;
+  border-style: solid;
+  border-color: white;
+  margin: 15px;
+  padding-inline: 15px;
+  padding-top: 15px;
 }
