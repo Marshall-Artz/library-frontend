@@ -4,19 +4,19 @@ const initialState = {
   books:
   [
     {
-      title: "Title1",
-      isbn: "1234567890",
-      desc: "A non-fiction biography.",
+      title: "Lord of the Rings",
+      author: "J.R.R. Tolkien",
+      desc: "A fantasy fiction book.",
     },
     {
-      title: "Title2",
-      isbn: "0123456789",
-      desc: "A fiction book.",
+      title: "Harry Potter and the Sorcerer's Stone",
+      author: "J.K. Rowling",
+      desc: "A fantasy fiction book about wizards.",
     },
     {
-      title: "Title3",
-      isbn: "9876543210",
-      desc: "A fantasy book.",
+      title: "The Lion, the Witch, and the Wardrobe",
+      author: "C.S. Lewis",
+      desc: "A fantasy book about a magical wardrobe.",
     },
   ]
 }

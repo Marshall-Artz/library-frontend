@@ -1,0 +1,29 @@
+.Banner {
+  background-color: #00853E;
+  padding: 5px;
+  height: 100px;
+}
+  
+.Main {
+  background-color: #a2a2a2;
+  border-width: 1;
+  border-style: solid;
+  border-color: white;
+  margin: 15px;
+}
+
+.SearchBox {
+  padding: 15px;
+  background-color: #00853E;
+}
+
+.Search {
+  border-color: white;
+  width: 300;
+}
+
+.Books {
+  margin: 15px;
+  min-width: 275;
+  background-color: #ffffff;
+}
