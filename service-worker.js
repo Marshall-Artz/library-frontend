@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "Marshall-Artz.github.io/library-frontend,/precache-manifest.05a44f29d2c1c16c52334a79e99f39ec.js"
+  "Marshall-Artz.github.io/library-frontend/precache-manifest.3a49e1b14371d523dc0c5d1ad5e05c8a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("Marshall-Artz.github.io/library-frontend,/index.html", {
+workbox.routing.registerNavigationRoute("Marshall-Artz.github.io/library-frontend/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
