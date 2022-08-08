@@ -6,7 +6,7 @@ const SearchBox = () => {
   return (
     <>
       <Box className="SearchBox" >
-        <TextField id="Search" label="Outlined" variant="outlined" sx={{justifyContent: 'flex-end'}}/>
+        <TextField id="Search" label="Search" variant="outlined" sx={{justifyContent: 'flex-end'}}/>
       </Box>
     </>
   );
